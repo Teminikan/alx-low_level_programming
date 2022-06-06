@@ -2,15 +2,15 @@
 
 /**
  *
- * * main - The entry point of the program
+ * main - The entry point of the program
  *
- * * puts: prints the string
+ * puts: prints the string
  *
- * * Return: outputs the integar 0
+ * Return: outputs the integar 0
  *
- * *
  *
- * */
+ *
+ */
 
 int main(void)
 {
