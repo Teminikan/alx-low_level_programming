@@ -1,5 +1,5 @@
-#!/bin/bash
 #include <stdio.h>
+
 /**
  *
  * * main - The entry point of the program
