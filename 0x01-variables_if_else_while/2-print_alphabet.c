@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - The entry point of the program
  * Return: ouputs result which is int
  */
