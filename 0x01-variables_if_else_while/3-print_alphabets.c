@@ -5,7 +5,6 @@
  */
 int main(void)
 {
-	
 	char small_a;
 	char big_a;
 	small_a = 'a';
@@ -15,11 +14,11 @@ int main(void)
 		putchar(small_a);
 		small_a++;
 	}
-	while (big_a <= 'Z')
-	{
+		while (big_a <= 'Z')
+		{
 		putchar(big_a);
 		big_a++;
-	}
+		}
 	putchar('\n');
 	return (0);
 }
