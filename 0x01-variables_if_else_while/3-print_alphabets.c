@@ -7,7 +7,6 @@ int main(void)
 {
 	char small_a;
 	char big_a;
-	
 	small_a = 'a';
 	big_a = 'A';
 	while (small_a <= 'z')
