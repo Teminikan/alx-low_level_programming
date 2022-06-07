@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-
 /**
  * main - The entry head of the program
  * if - conditionals
