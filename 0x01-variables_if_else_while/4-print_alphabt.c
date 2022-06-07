@@ -3,6 +3,7 @@
  * main - The entry point of the program
  * Return: outps program result type, int
  */
+
 int main(void)
 {
 	char start;
@@ -13,7 +14,7 @@ int main(void)
 		{
 			continue;
 		}
-		putchar(start)
+		putchar(start);
 	}
 	putchar('\n');
 	return (0);
