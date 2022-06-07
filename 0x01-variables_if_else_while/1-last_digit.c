@@ -11,7 +11,6 @@
 
 int main(void)
 {
-	c
 	int n;
 	int last_d;
 	
