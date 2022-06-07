@@ -3,7 +3,6 @@
 #include <time.h>
 
 /**
- *
  * main - The entry head of the program
  * if - conditionals
  * else if - conditional check
@@ -12,7 +11,7 @@
 
 int main(void)
 
-{	
+{
 	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
