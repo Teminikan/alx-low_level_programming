@@ -7,7 +7,6 @@
  * else if - conditional check
  * Return: outputs result which is an int as defined
  */
-
 int main(void)
 {
 	int n;
