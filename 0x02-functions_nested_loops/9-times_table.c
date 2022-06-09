@@ -1,25 +1,38 @@
 #include "main.h"
 /**
- * print_sign - The entry point of the program
- * @n: The number to be checked
- * Return: prints 1
+ * times_table - a function that prints the 9 times table, starting with 0
+ * rone = row, cone = column, d = digits of current result
+ * Return: times table
+ * add extra space past single digit
  */
-int print_sign(int n)
+void times_table(void)
 {
-	if (n > 0)
-	{
-		_putchar('+');
-		return (1);
-	}
-	else if (n == 0)
+	int rone, cone, d;
+
+	for (rone = 0; rone <= 9; rone++)
 	{
 		_putchar('0');
-		return (0);
+		_putchar(',');
+		_putchar(' ');
+		for (cone = 1; cone <= 9; cone++)
+		{
+			d = (rone * cone);
+			if ((d / 10) > 0)
+			{
+				_putchar((d / 10) + '0');
+			}
+			else
+			{
+				_putchar(' ');
+			}
+			_putchar((d % 10) + '0');
+
+			if (cone < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+		}
+		_putchar('\n');
 	}
-	else
-	{
-		_putchar('-');
-		return (-1);
-	}
-	return (1);
 }
