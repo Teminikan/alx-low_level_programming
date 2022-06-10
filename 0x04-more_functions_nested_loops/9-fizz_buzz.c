@@ -1,18 +1,19 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
+
 /**
- * main - prints the number from 1 to 100
- * 3 multiples print fizz instead of the number
- * 5 multiples print buzz instead of the number
- * 3 & 5 multiples print fizzbuzz instead of the number
+ * main - prints the numbers from 1 to 100
+ * 3 multiples print Fizz instead of the number
+ * 5 multiples print Buzz instead of the number
+ * 3 & 5  multiples print FizzBuzz instead of the number
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int i;
-	char f[] = "fizz";
-	char b[] = "buzz";
-	char fb[] = "fizzbuzz";
+	char f[] = "Fizz";
+	char b[] = "Buzz";
+	char fb[] = "FizzBuzz";
 
 	for (i = 1; i <= 100; i++)
 	{
