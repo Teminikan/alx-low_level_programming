@@ -9,8 +9,8 @@ size_t _strlen(const char *str);
 void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
-void put2(char *str);
+void puts2(char *str);
 void puts_half(char *str);
-char *strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src);
 
 #endif
